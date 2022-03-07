@@ -1,0 +1,30 @@
+{
+  "name": "node.js-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeSHka98/Node.js-lab.git"
+  },
+  "keywords": [
+    "node",
+    "node-lab"
+  ],
+  "author": "Alexei_Petrovskij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeSHka98/Node.js-lab/issues"
+  },
+  "homepage": "https://github.com/LeSHka98/Node.js-lab#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4"
+  }
+}
