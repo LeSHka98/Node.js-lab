@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon express.js"
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc && nodemon dist/server.ts"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,12 @@
   },
   "homepage": "https://github.com/LeSHka98/Node.js-lab#readme",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15",
+    "ts-node-dev": "^1.1.8"
   },
   "dependencies": {
+    "@typegoose/typegoose": "^9.7.0",
     "express": "^4.17.3",
     "mongoose": "^6.2.4"
   }
